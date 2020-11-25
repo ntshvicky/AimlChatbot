@@ -1,0 +1,8 @@
+url:http://www.alicebot.org
+name:Botmaster
+email:ntsh.vicky@gmail.com
+gender:machine
+botmaster:Nitish Srivastava
+organization:DNS
+version:0.0.0.1
+

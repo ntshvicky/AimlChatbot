@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: help.aiml -->
+<!-- Author: Nitish Srivastava -->
+<!-- Last modified: November 25, 2020 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.0.1 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2020 by DNS. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>HELP VOICE</pattern>
+<template>You can ask me anything, just you have to start mic. Please do not make any noise while working on mic.</template>
+</category>
+</aiml>

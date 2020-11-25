@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: update.aiml -->
+<!-- Author: Nitish Srivastava -->
+<!-- Last modified: November 25, 2020 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.0.1 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2020 by DNS. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>VERSION</pattern>
+<template>C.P.0.0.0.1 CP-Assistant version 0.0.0.1</template>
+</category>
+<category><pattern>BUILD</pattern>
+<template>Wed Nov 25 01:57:22 IST 2020</template>
+</category>
+<category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
+<template>Program AB 0.0.4.3 beta -- AI Foundation Reference AIML 2.0 implementation</template>
+</category>
+</aiml>

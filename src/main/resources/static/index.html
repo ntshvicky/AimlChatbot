@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello WebSocket</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/chatbot/chatstyles.css?v=1.0.0.1">
+</head>
+<body>
+<noscript><h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being
+    enabled. Please enable
+    Javascript and reload this page!</h2></noscript>
+    
+    
+<div id="main-content" class="container" style="margin-top: 40px;">
+    <div class="row">
+        <div class="col-md-6">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="connect">WebSocket connection:</label>
+                    <button id="connect" class="btn btn-default" type="submit">Connect</button>
+                    <button id="disconnect" class="btn btn-default" type="submit" disabled="disabled">Disconnect
+                    </button>
+                </div>
+                <div class="form-group">
+                	<label>Connect to the web socket and it will open a chatbox. 
+                	if after connection you are not able to see that chatbot remove hide code in chatscript.js file</label>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+
+  <div class="chat-box" style="margin-top: 50px;">
+    <div class="chat-box-header">
+    	<div class='app'>
+      		<span id="start-record-btn" style='float:left; cursor: pointer; padding-left: 28px;' title="Start Recording"><i class="fa fa-microphone"></i></span>
+      	</div>
+      	Botmaster
+      	<span class="chat-box-toggle"><i class="fa fa-close"></i></span>
+    </div>
+    <div class="chat-box-body">
+      <div class="chat-box-overlay"></div>
+      <div class="chat-logs"></div>
+    </div>
+    <div class="chat-input">      
+      <form>
+        <input type="text" id="chat-input" placeholder="Send a message..."/>
+      	<button type="submit" class="chat-submit" id="chat-submit" title="Send Text"><i class="fa fa-send"></i></button>
+      </form>      
+    </div>
+  </div>
+    
+    
+</div>
+
+<script src="/chatbot/chatscript.js?v=1.0.0.1"></script>
+</body>
+</html>
